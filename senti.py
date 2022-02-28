@@ -3,10 +3,10 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 import pandas as pd
 
-consumerkey = "qLEX7W4D9iJNacVVShOhbe5g5"
-consumersecret = "DchtJo6oeoyD8R52NGj0yn1Z9f1BhaGznKV2ergpr9lRZ3jOT8"
-accesstoken = "896600678633660416-WYD9QnUVgG49nDAwofU69fPfEtaHTeb"
-accesstokensecret = "r5dwCb0eb5akyYESujVXEmhhLzeKk237gSGNoB1hNorGP"
+consumerkey = "xx"
+consumersecret = "xx"
+accesstoken = "xx"
+accesstokensecret = "xx"
 
 auth = tweepy.OAuthHandler(consumerkey, consumersecret)
 auth.set_access_token(accesstoken, accesstokensecret) #accessrequest through object
